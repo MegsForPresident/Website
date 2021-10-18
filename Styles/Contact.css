@@ -3,7 +3,8 @@ div div a{
     color:white;
 }
 
-div div span:hover{
-    background-color: yellow;
+div div a:hover{
+    background-color: #f2ea73;
     color:black;
+    border-radius: 10px;
 }
