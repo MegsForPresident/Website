@@ -1,11 +1,13 @@
-// // Writing into an HTML element using innerHTML
-// document.getElementById('main').innerHTML = "Hello Hacker";
-
-// // Writing into the HTML output using document.write()
-// document.write('Hello Hacker');
-
-// //Writing into an alert box, using window.alert()
-// alert('Hello, Hacker');
-
-// // Writing into browser console, using console.log();
-// console.log('Hello, Hacker');
+function readImage(file) {  //function readImage(file) {
+    // Check if the file is an image.
+    if (file.type && !file.type.startsWith('image/')) {
+      console.log('File is not an image.', file.type, file);
+      return;
+    }
+  
+    const reader = new FileReader();
+    reader.addEventListener('load', (event) => {
+      img.src = event.target.result;
+    });
+    reader.readAsDataURL(file);
+}

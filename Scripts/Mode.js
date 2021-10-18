@@ -11,7 +11,7 @@ function dark(){
     console.log('Dark');
 
     //Changing the lettering in the NavBar
-    navbar.classList.add('daek');
+    navbar.classList.add('dark');
 }
 function light(){
     document.body.style.backgroundColor = "white";
