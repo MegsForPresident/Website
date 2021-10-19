@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <meta name="Author" content="Pleague_Jumper">
+
     <title> Contact - Website</title>
-    <link rel="stylesheet" href="Styles/style.css">
-    <link rel="stylesheet" href="Styles/Dark.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="Styles/Common/Style.css">
+    <link rel="stylesheet" href="Styles/Common/Dark.css">
     <link rel="stylesheet" href="Styles/Contact.css">
+
     <link rel="icon" href="Icon/favicon.ico">
 </head>
 <body>
@@ -15,11 +20,11 @@
         <p><a href="Index.html">Portfolio</a></p>
         <ul>
             <li class="hover"><a href="Index.html">Home</a></li>
-            <li class="hover"><a href="#projects">Projects</a></li>
+            <li class="hover"><a href="Projects.html">Projects</a></li>
             <li class="hover"><a href="#mode">Appearance</a>
                 <ul>
                     <li class="hover"><a class="hover" href="" onclick="light()">Light Mode</a></li>
-                    <li class="hover"><a class="hover" href="" onclick="dark()">Dark Mode</a></li>
+                    <li class="hover"><a class="hover" href="" onclick="dark();">Dark Mode</a></li>
                 </ul>
             </li>
             <li class="hover"><a href="About.html">About</a></li>
@@ -32,15 +37,16 @@
         -->
     </nav>
     <hr>
-    <div style="padding: 275px;" class="centre">
+    <div style="padding: 275px;" class="centre" id="main">
         Contact Me
-        <div style="font-size:45px;padding-top: 10px;padding-bottom: 10px;padding-right: 1px;padding-left: 1px;text-align: center;">
-            <a href="https://discord.com/channels/@me/897875572649238538" target="_blank"><img src="Social//discord.png" class="image-alignment">Discord</a>
+        <div class="div-style">
+            <a href="https://discord.com/channels/@me/897875572649238538" target="_blank" name="element"><img src="Social//discord.png" class="image-alignment">Discord</a>
         </div>
-        <div style="font-size:45px;padding-top: 10px;padding-bottom: 10px;padding-right: 1px;padding-left: 1px;text-align: center;">
-            <a href="https://Github.com"><img src="Social//Github.png" class="image-alignment " >GitHub</a>
+        <div class="div-style">
+            <a href="https://github.com/MegsForPresident" target="_blank" name="element"><img src="Social//Github.png" class="image-alignment">GitHub</a>
         </div>
     </div>
-    <script src="Scripts/Mode.js"></script>
+    <script src="Scripts/Common/Mode.js"></script>
+    <script src="Scripts/Contact.js"></script>
     <hr>
 </body>

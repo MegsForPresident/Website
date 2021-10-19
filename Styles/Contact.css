@@ -8,3 +8,11 @@ div div a:hover{
     color:black;
     border-radius: 10px;
 }
+.div-style{
+    font-size:45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 1px;
+    padding-left: 1px;
+    text-align: center;
+}
