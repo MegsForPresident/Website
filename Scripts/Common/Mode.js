@@ -1,7 +1,6 @@
 var navbar = document.getElementById('navvbar');
-var main = document.getElementById('main')
+var main = document.getElementsByClassName('element')
 function dark(){
-
     document.body.style.backgroundColor = "#0e122b";
     document.body.style.color = "white";
     var object = document.getElementById('dark');
@@ -14,6 +13,9 @@ function dark(){
 
     //Changing the lettering in the NavBar
     navbar.classList.add('dark');
+
+    //
+    
 }
 function light(){
     document.body.style.backgroundColor = "white";
@@ -22,6 +24,10 @@ function light(){
     localStorage.setItem('Appearance',"Light");
     console.log('Light');
     navbar.classList.remove('Dark')
+    
+    for(var i = 0; i < main.length;i++){
+        main[i].style.color = "black";
+    }
 }
 
 var mode = localStorage.getItem('Appearance');

@@ -1,10 +1,7 @@
 div div a{
     text-decoration: none;
-    color:white;
 }
-
 div div a:hover{
-    background-color: #f2ea73;
     color:black;
     border-radius: 10px;
 }
@@ -15,4 +12,8 @@ div div a:hover{
     padding-right: 1px;
     padding-left: 1px;
     text-align: center;
+}
+
+.a-colours div div a{
+    color: black;
 }

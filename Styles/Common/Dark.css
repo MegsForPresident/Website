@@ -1,5 +1,4 @@
 .dark{
-    background-color: black;
     background-color: #051624;
     color: white;
 }
@@ -20,7 +19,7 @@
 }
 
 
-.navHover ul li:hover {
+.navHover > ul li:hover {
     border: 1px solid #222;
     background-color: white;
     border-radius: 10px;

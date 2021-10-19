@@ -1,11 +1,8 @@
-var elements = document.getElementsByTagName("a")
-if(localStorage.getItem('Appearance') == "Dark"){
-    for(var i = 0; i < elements.length; i++) {
-        elements[i].style.color="white";
-    }
-    console.log("Yess")
+var main = document.getElementById('main');
+if(localStorage.getItem('Appearance') == 'Light'){
+    main.classList.add('a-colours');
+    console.log("added");
 }
 else{
-    element.style.color = "#0e122b";
-    console.log("Noo")
+    main.classList.remove('a-colours');
 }
