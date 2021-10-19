@@ -1,8 +1,8 @@
 var main = document.getElementById('main');
 if(localStorage.getItem('Appearance') == 'Light'){
-    main.classList.add('a-colours');
+    main.classList.add('ars');
     console.log("added");
 }
 else{
-    main.classList.remove('a-colours');
+    main.classList.remove('ars');
 }

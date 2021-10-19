@@ -1,5 +1,6 @@
 div div a{
     text-decoration: none;
+    
 }
 div div a:hover{
     color:black;
@@ -14,6 +15,6 @@ div div a:hover{
     text-align: center;
 }
 
-.a-colours div div a{
+.ars > div div a{
     color: black;
 }
