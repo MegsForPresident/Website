@@ -23,7 +23,7 @@ function light(){
     console.log("yes");
     localStorage.setItem('Appearance',"Light");
     console.log('Light');
-    // navbar.classList.remove('Dark');
+    navbar.classList.remove('Dark');
     
     for(var i = 0; i < main.length;i++){
         main[i].style.color = "black";
