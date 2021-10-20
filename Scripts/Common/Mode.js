@@ -1,12 +1,14 @@
 var navbar = document.getElementById('navvbar');
-var main = document.getElementsByClassName('element')
+var main = document.getElementsByClassName('element');
 function dark(){
     document.body.style.backgroundColor = "#0e122b";
     document.body.style.color = "white";
     var object = document.getElementById('dark');
     dark.backgroundColor = "0e122b";
     dark.color = "white";
-
+    for(var i = 0;i < main.length;i++){
+        main[i].style.color ="white";
+    }
     // Saving the Preferred Mode Of the User
     localStorage.setItem('Appearance',"Dark");
     console.log('Dark');
@@ -23,11 +25,13 @@ function light(){
     console.log("yes");
     localStorage.setItem('Appearance',"Light");
     console.log('Light');
+    
+    for(var i = 0;i < main.length;i++){
+        main[i].style.color ="black";
+    }
+
     navbar.classList.remove('Dark');
     
-    for(var i = 0; i < main.length;i++){
-        main[i].style.color = "black";
-    }
 }
 
 var mode = localStorage.getItem('Appearance');
