@@ -26,6 +26,10 @@ nav p a{
     font-size: 75px;
     text-align: center;
 }
+.ul-alignment{
+    padding: 10px 0;
+    font-size: 45px;;
+}
 /* image */
 .centre{
     margin: auto;
