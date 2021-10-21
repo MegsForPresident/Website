@@ -15,11 +15,13 @@ function dark(){
 
     //Changing the lettering in the NavBar
     navbar.classList.add('dark');
+
+    //
     
 }
 function light(){
     document.body.style.backgroundColor = "white";
-    document.body.style.color = "#0e122b"; 
+    document.body.style.color = "#23232b"; 
     console.log("yes");
     localStorage.setItem('Appearance',"Light");
     console.log('Light');
