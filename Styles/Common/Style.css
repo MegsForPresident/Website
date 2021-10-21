@@ -30,7 +30,10 @@ nav p a{
     padding: 10px 0;
     font-size: 45px;;
 }
-/* image */
+.topnav{
+    position: fixed;
+    top:0px;
+}
 .centre{
     margin: auto;
     width: 50%;
@@ -40,10 +43,11 @@ nav p a{
 }
 
 .hover:hover{
-    border: 1px solid #222;
+    border: 20px solid #222;
     background-color: #f2ea73;
     border-radius: 10px;
     border-width: inherit;
+    color:#222
 }
 
 .image-alignment{
@@ -63,7 +67,7 @@ nav p a{
     display: flex;
     flex-wrap: nowrap;
     background-color: DodgerBlue;
-  }
+}
 
 .flex-contain li {
   background-color: #f1f1f1;
@@ -141,3 +145,4 @@ nav ul li input{
     width: 200px;
     padding: 14px;
 }
+/* position */

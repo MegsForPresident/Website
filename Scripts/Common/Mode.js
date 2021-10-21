@@ -1,10 +1,10 @@
 var navbar = document.getElementById('navvbar');
 var main = document.getElementsByClassName('element');
 function dark(){
-    document.body.style.backgroundColor = "#0e122b";
+    document.body.style.backgroundColor = "#23232b";
     document.body.style.color = "white";
     var object = document.getElementById('dark');
-    dark.backgroundColor = "0e122b";
+    dark.backgroundColor = "#0e122b";
     dark.color = "white";
     for(var i = 0;i < main.length;i++){
         main[i].style.color ="white";
@@ -15,8 +15,6 @@ function dark(){
 
     //Changing the lettering in the NavBar
     navbar.classList.add('dark');
-
-    //
     
 }
 function light(){

@@ -1,5 +1,5 @@
 .dark{
-    background-color: #051624;
+    background-color: #15151a;
     color: white;
 }
 .dark > p a{
@@ -9,13 +9,13 @@
     color: white;
 }
 .dark > ul li{
-    background-color: #051624;
+    background-color: #15151a;
 }
 .dark > ul li ul{
-    background-color: #051624;
+    background-color: #15151a;
 }
 .dark > ul li ul li a{
-    background-color: #051624;
+    background-color: #15151a;
 }
 
 
