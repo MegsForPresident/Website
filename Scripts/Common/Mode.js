@@ -31,7 +31,7 @@ function light(){
     }
 
     navbar.classList.remove('Dark');
-    
+    navbar.style.backgroundColor = "#dee0e3";
 }
 
 var mode = localStorage.getItem('Appearance');
