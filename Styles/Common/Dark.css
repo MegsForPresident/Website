@@ -17,13 +17,16 @@
 .dark > ul li ul li a{
     background-color: #15151a;
 }
-
-
+@keyframes hover{
+    from{background-color: #222}
+    to{background-color: white;} 
+}
 .navHover > ul li:hover {
     border: 1px solid #222;
     background-color: white;
     border-radius: 10px;
     border-width: inherit;
+    animation: hover 1s 1;
 }
 .navHover ul li a:hover {
     color:black;

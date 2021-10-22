@@ -2,4 +2,4 @@ Resize Navbar to mobile
 
 Complete the Copy Function
 
-Need to fix the light mode in Contact.html
+add resizing text size anim to discord and github
