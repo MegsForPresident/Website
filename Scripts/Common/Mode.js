@@ -1,5 +1,6 @@
 var navbar = document.getElementById('navvbar');
 var main = document.getElementsByClassName('element');
+var ulElement = document.getElementsByClassName('navHover');
 function dark(){
     document.body.style.backgroundColor = "#23232b";
     document.body.style.color = "white";
@@ -15,9 +16,11 @@ function dark(){
 
     //Changing the lettering in the NavBar
     navbar.classList.add('dark');
-
-    //
-    
+    navbar.classList.remove('light');
+    //Changing navbar hovers
+    for(var i = 0;i < ulElement.length;i++){
+        ulElement[i].classList.add('navHoverDark');
+    }
 }
 function light(){
     document.body.style.backgroundColor = "white";
@@ -31,7 +34,11 @@ function light(){
     }
 
     navbar.classList.remove('Dark');
-    navbar.style.backgroundColor = "#dee0e3";
+    navbar.classList.add("Light");
+
+    for(var i = 0;i < ulElement.length;i++){
+        ulElement[i].classList.add('navHover');
+    }
 }
 
 var mode = localStorage.getItem('Appearance');

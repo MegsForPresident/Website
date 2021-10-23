@@ -1,3 +1,42 @@
+.light{
+    background-color: #dee0e3;
+    color: black;
+}
+.light > p a{
+    color: black;
+}
+.light li a{
+    color: black;
+}
+.light li{
+    background-color: #dee0e3;
+}
+.light li ul{
+    background-color: #dee0e3;
+}
+
+@keyframes hover{
+    from{background-color: #dee0e3}
+    to{background-color: #222;} 
+}
+.navHover li:hover {
+    border: 1px solid #dee0e3;
+    background-color: #222;
+    border-radius: 10px;
+    border-width: inherit;
+    animation: hover .5s 1;
+}
+.navHover li a:hover {
+    color:#dee0e3;
+}
+
+@keyframes hoverDark{
+    from{background-color: #222}
+    to{background-color: #dee0e3;} 
+}
+
+
+
 .dark{
     background-color: #15151a;
     color: white;
@@ -14,18 +53,13 @@
 .dark li ul{
     background-color: #15151a;
 }
-
-@keyframes hover{
-    from{background-color: #222}
-    to{background-color: white;} 
-}
-.navHover li:hover {
+.navHoverDark li:hover {
     border: 1px solid #222;
-    background-color: white;
+    background-color: #dee0e3;
     border-radius: 10px;
     border-width: inherit;
-    animation: hover .5s 1;
+    animation: hoverDark .5s 1;
 }
-.navHover li a:hover {
-    color:black;
+.navHoverDark li a:hover {
+    color:#222;
 }
