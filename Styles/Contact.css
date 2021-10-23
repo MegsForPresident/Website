@@ -3,15 +3,14 @@
     border-radius: 10px;
     border-width: inherit;
     background-color: #23232b;
-    animation: font2 1s 1;;
+    animation: font2 0.5s 1;;
     font-size:45px;
 }
 .hoverDark:hover{
     border: 1px solid #222;
     border-radius: 10px;
     border-width: inherit;
-    background-color: #f2ea73;
-    animation: font 1s 1;
+    animation: font 0.5s 1;
     animation-direction: linear;
     color:black;
     font-size:60px;
@@ -32,15 +31,14 @@
     border-radius: 10px;
     border-width: inherit;
     background-color: white;
-    animation: font2 1s 1;;
+    animation: font2 0.5s 1;;
     font-size:45px;
 }
 .hover:hover{
     border: 1px solid #222;
     border-radius: 10px;
     border-width: inherit;
-    background-color: #f2ea73;
-    animation: font 1s 1;
+    animation: font 0.5s 1;
     animation-direction: linear;
     color:black;
     font-size:60px;

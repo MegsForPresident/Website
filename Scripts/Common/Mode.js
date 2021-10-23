@@ -1,6 +1,7 @@
 var navbar = document.getElementById('navvbar');
 var main = document.getElementsByClassName('element');
 var ulElement = document.getElementsByClassName('navHover');
+var yo = document.getElementById("yoyo");
 function dark(){
     document.body.style.backgroundColor = "#23232b";
     document.body.style.color = "white";

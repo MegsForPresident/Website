@@ -24,7 +24,7 @@
     background-color: #222;
     border-radius: 10px;
     border-width: inherit;
-    animation: hover .5s 1;
+    animation: hover .25s 1;
 }
 .navHover li a:hover {
     color:#dee0e3;
@@ -58,7 +58,7 @@
     background-color: #dee0e3;
     border-radius: 10px;
     border-width: inherit;
-    animation: hoverDark .5s 1;
+    animation: hoverDark .25s 1;
 }
 .navHoverDark li a:hover {
     color:#222;
