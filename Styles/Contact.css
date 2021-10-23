@@ -14,15 +14,15 @@
     animation: font 1s 1;
     animation-direction: linear;
     color:black;
-    font-size:100px;
+    font-size:60px;
 }
 
 @keyframes font {
     from{font-size: 45px;}
-    to{font-size: 100px;}
+    to{font-size: 60px;}
 }
 
 @keyframes font2 {
-    from{font-size: 100px;}
+    from{font-size: 60px;}
     to{font-size: 45px;}
 }
