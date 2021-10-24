@@ -1,5 +1,5 @@
 .light{
-    background-color: #dee0e3;
+    background-color: white;
     color: black;
 }
 .light > p a{
@@ -9,30 +9,30 @@
     color: black;
 }
 .light li{
-    background-color: #dee0e3;
+    background-color: white;
 }
 .light li ul{
-    background-color: #dee0e3;
+    background-color: white;
 }
 
 @keyframes hover{
-    from{background-color: #dee0e3}
+    from{background-color: white}
     to{background-color: #222;} 
 }
 .navHover li:hover {
-    border: 1px solid #dee0e3;
+    border: 1px solid white;
     background-color: #222;
     border-radius: 10px;
     border-width: inherit;
     animation: hover .25s 1;
 }
 .navHover li a:hover {
-    color:#dee0e3;
+    color:white;
 }
 
 @keyframes hoverDark{
     from{background-color: #222}
-    to{background-color: #dee0e3;} 
+    to{background-color: white;} 
 }
 
 
@@ -55,7 +55,7 @@
 }
 .navHoverDark li:hover {
     border: 1px solid #222;
-    background-color: #dee0e3;
+    background-color: white;
     border-radius: 10px;
     border-width: inherit;
     animation: hoverDark .25s 1;
