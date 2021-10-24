@@ -42,13 +42,3 @@ function light(){
     }
 }
 
-var mode = localStorage.getItem('Appearance');
-
-if (mode === "Light"){
-    light()
-}
-else{
-    dark()
-}
-
- 
